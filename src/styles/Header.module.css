@@ -1,0 +1,12 @@
+.cartQuantity {
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 5px;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .animate {
+    transform: scale(1.2);
+    color: #ff6347; 
+  }
+  

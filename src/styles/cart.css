@@ -1,0 +1,217 @@
+/* General body styling */
+.cart-body {
+    background: #f0f0f0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    padding: 3rem 0;
+  }
+  
+  /* Container for the shopping cart */
+  .cart-container {
+    max-width: 1200px;
+    width: 100%;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4vh;
+  }
+  
+  /* Cart Section */
+  .cart {
+    padding: 2rem;
+    flex: 1 1 60%;
+  }
+  
+  @media (max-width: 768px) {
+    .cart {
+      flex: 1 1 100%;
+    }
+  }
+  
+  /* Summary Section */
+  .summary {
+    background-color: #f8f8f8;
+    padding: 2rem;
+    border-radius: 8px;
+    flex: 1 1 30%;
+    margin-left: 2rem;
+  }
+  
+  @media (max-width: 768px) {
+    .summary {
+      margin-left: 0;
+      flex: 1 1 100%;
+    }
+  }
+  
+  /* Title styling */
+  .title b {
+    font-size: 1.75rem;
+    color: #333;
+  }
+  
+  /* Cart product item */
+  .product-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    border-bottom: 1px solid #eaeaea;
+  }
+  
+  .product-item img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .product-info {
+    flex: 1;
+    margin-left: 1rem;
+  }
+  
+  .product-name {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .product-description {
+    color: #888;
+    font-size: 0.9rem;
+  }
+  
+  .quantity-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+  }
+  
+  .quantity-container button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 0 0.5rem;
+  }
+  
+  .quantity-container button:hover {
+    background-color: #2980b9;
+  }
+  
+  .quantity-container input {
+    width: 50px;
+    padding: 0.5rem;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Remove item button */
+  .remove-item {
+    font-size: 1.2rem;
+    color: #e74c3c;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .remove-item:hover {
+    color: #c0392b;
+  }
+  
+  .empty-cart-message {
+    text-align: center;
+    font-size: 1.25rem;
+    color: #888;
+    padding: 2rem;
+  }
+  
+  .back-to-shop {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .back-to-shop a {
+    color: #3498db;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .back-to-shop a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Summary Section Styling */
+  .summary h5 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .summary .total-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 1rem 0;
+  }
+  
+  .btn-proceed {
+    width: 100%;
+    background-color: #3498db;
+    color: white;
+    padding: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-proceed:hover {
+    background-color: #2980b9;
+  }
+  
+  .divider {
+    border: 1px solid #eaeaea;
+    margin: 1rem 0;
+  }
+  .remove-item {
+    font-size: 18px;
+    color: #fff;
+    background-color: #ff4d4d;
+    border: 2px solid #ff4d4d;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+  }
+  
+  .remove-item:hover {
+    background-color: #ff1a1a;
+    transform: scale(1.2) rotate(3.5deg); 
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.4);
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+  }
+  
+  
+  .remove-item:active {
+    transform: scale(0.95);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
