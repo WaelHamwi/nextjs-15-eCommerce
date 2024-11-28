@@ -1,4 +1,4 @@
-# 🎉 **Installation Instructions** (highlighted for emphasis) 🎉
+# 🎉 **Installation Instructions** (for a quick install) 🎉
 
 ## 1. Navigate to the project folder:
 cd e-commerce-backend
